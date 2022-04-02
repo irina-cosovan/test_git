@@ -19,7 +19,15 @@ namespace LibrarieModele
         //contructor implicit
         public Student()
         {
-            nume = prenume = string.Empty;
+            nume = string.Empty;
+            prenume = string.Empty;
+            
+        }
+        public Student(string _nume, string _prenume )
+        {
+            nume = _nume;
+            prenume = _prenume;
+
         }
 
         //constructor cu parametri

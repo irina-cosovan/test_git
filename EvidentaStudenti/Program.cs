@@ -32,6 +32,7 @@ namespace EvidentaStudenti
                         int idStudent = nrStudenti + 1;
                         nrStudenti = nrStudenti + 1;
                         Student student = new Student(idStudent, "Ioana", "Radu");
+                        Student student2 = new Student("ANA", "MariaP");
                         //adaugare student in fisier
                         adminStudenti.AddStudent(student);
                         break;
